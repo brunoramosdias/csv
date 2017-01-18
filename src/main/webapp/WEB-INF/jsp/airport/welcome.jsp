@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="<c:url value='/assets/css/pagination/jqpagination.css'/>" />
 </jsp:attribute>
     <jsp:attribute name="extraScripts">
-<script src="<c:url value='/assets/js/jquery.jqpagination.js'/>"></script>
 </jsp:attribute>
     <jsp:body>
         <div>
