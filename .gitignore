@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+.class
+.jar
+.war
+.ear
+
+
+.DS_Store
+.gitignore
+target/
+/csv.iml
+/.idea/
