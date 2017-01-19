@@ -19,6 +19,7 @@
                             <td>Country name</td>
                             <td>Country code</td>
                             <td>Number of  airports</td>
+                            <td>Surfaces Avaliable</td>
                             <td>View airports</td>
                         </tr>
                         </thead>
@@ -29,6 +30,11 @@
                                 <td>${object.name}</td>
                                 <td>${object.code}</td>
                                 <td>${object.airportCount}</td>
+                                <td>
+                                    <c:forEach items='${object.surfaces}' var='surface'>
+                                        ${surface}
+                                    </c:forEach>
+                                </td>
                                 <td><a href="<c:url value='/airport/query/country/'/>${object.code}">View airports</a></td>
                             </tr>
                         </c:forEach>

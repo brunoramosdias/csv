@@ -17,6 +17,7 @@ public class Country implements Serializable{
     private String keywords;
     private List<Airport> airports;
     private int airportCount;
+    private List<String> surfaces;
 
     public Country(Long id, String code, String name, String continent, String wikipedia_link, String keywords) {
         this.id = id;
@@ -86,5 +87,13 @@ public class Country implements Serializable{
         result = 31 * result + getCode().hashCode();
         result = 31 * result + getName().hashCode();
         return result;
+    }
+
+    public List<String> getSurfaces() {
+        return surfaces;
+    }
+
+    public void setSurfaces(List<String> surfaces) {
+        this.surfaces = surfaces;
     }
 }
