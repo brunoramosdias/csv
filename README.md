@@ -6,3 +6,4 @@ Web application with file read in memory
 
 No database as it was used mainly as concept proof
 to query data directly from files
+
